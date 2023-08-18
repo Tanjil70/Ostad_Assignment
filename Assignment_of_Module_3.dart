@@ -50,6 +50,6 @@ void main() {
   Car car3 = new Car("Toyota", "Camry 2020", 8);
   car3.drive(15000);
   Car.numberOfCars++;
-  print(
-      "Car 3: ${car3.brand} ${car3.model} Miles:${car3.getMilesDriven()} Age:${car3.getAge()} Total number of cars created: ${Car.numberOfCars}");
+   print( "Car 3: ${car3.brand} ${car3.model} Miles:${car3.getMilesDriven()} Age:${car3.getAge()}");
+  print("Total number of cars created: ${Car.numberOfCars}");
 }
